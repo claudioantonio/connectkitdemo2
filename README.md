@@ -7,7 +7,7 @@ How to run?
 APP_ALCHEMY_ID=
 APP_WALLETCONNECT_PROJECT_ID=
 ```
-2. run `run npm dev`
+2. run `npm run dev`
 
 
 Check also the demo using [Vite](https://github.com/claudioantonio/connectkitdemo)
