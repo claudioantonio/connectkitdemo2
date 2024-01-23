@@ -12,8 +12,8 @@ const chains = [sepolia];
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
-    alchemyId: process.env.VITE_APP_ALCHEMY_ID, // or infuraId
-    walletConnectProjectId: process.env.VITE_APP_WALLETCONNECT_PROJECT_ID || '', // provide a default value
+    alchemyId: process.env.APP_ALCHEMY_ID, // or infuraId
+    walletConnectProjectId: process.env.APP_WALLETCONNECT_PROJECT_ID || '', // provide a default value
     chains,
     // Required
     appName: "connectkitdemo",
